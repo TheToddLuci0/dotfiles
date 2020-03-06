@@ -191,6 +191,4 @@ function parse_git_dirty {
 }
 
 #export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\] \[\e[33m\]\`parse_git_branch\`\[\e[m\] \[\e[31m\]\`nonzero_return\`\[\e[m\]\\$ "
-
-export GITLAB_TOKEN="354fiecF-RxL7_q6LFpo"
 export GPG_TTY=$(tty)
